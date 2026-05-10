@@ -1,0 +1,17 @@
+.why {
+  background-color: #fafafa;
+}
+
+.why-card {
+  background: white;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.why-card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.why h2 {
+  font-family: Georgia, serif;
+}

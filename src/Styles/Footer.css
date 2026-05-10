@@ -1,0 +1,22 @@
+.footer {
+  background-color: #111; /* Keep it dark and premium */
+  color: #fff;
+}
+
+.footer h3 {
+  font-family: Georgia, serif;
+  color: #b9935a; /* Using your signature gold tone */
+}
+
+.footer a {
+  transition: 0.3s ease;
+}
+
+.footer a:hover {
+  color: #b9935a !important;
+  padding-left: 5px; /* Subtle movement effect on hover */
+}
+
+.footer-bottom {
+  opacity: 0.6;
+}

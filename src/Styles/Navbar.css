@@ -1,0 +1,39 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #111;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  color: white;
+  z-index: 1000;
+}
+
+.navbar-brand {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex; 
+  gap: 28px;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    gap: 30px;
+  }
+}
+
+.navbar > .container {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.navbar-brand {
+    max-width: 68%; /* Ensures the brand doesn't "eat" the toggle's space */
+    margin-right: 0 !important;
+}
