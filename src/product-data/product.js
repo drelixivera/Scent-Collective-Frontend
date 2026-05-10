@@ -5,7 +5,7 @@ export const productsData = [
     name: "Midnight Oud",
     brand: "Scent Collective",
     price: 120,
-    image: "src/assets/Valentino Uomo Intense Eau De Parfum 100ml Spray for Men-New&Sealed Discontinued 3614272732278 _ eBay.png",
+    image: "public/Valentino Uomo Intense Eau De Parfum 100ml Spray for Men-New&Sealed Discontinued 3614272732278 _ eBay.png",
     description: "A deep, woody fragrance for evening wear.",
     category: "Woody"
   },
@@ -14,7 +14,7 @@ export const productsData = [
     name: "Oceanic Mist",
     brand: "Scent Collective",
     price: 85,
-    image: "src/assets/A luxurious and sensual fragrance with a rich.png",
+    image: "public/A luxurious and sensual fragrance with a rich.png",
     description: "Fresh, citrus notes inspired by the coastline.",
     category: "Floral"
   },
@@ -24,7 +24,7 @@ export const productsData = [
     price: 6500,
     category: "Fresh",
     description: "A bright, citrusy blend of bergamot and neroli, designed to keep you refreshed under the sun.",
-    image: "src/assets/Armaf Club de Nuit Intense Man – The Ultimate Power Fragrance for Men.png"
+    image: "public/Armaf Club de Nuit Intense Man – The Ultimate Power Fragrance for Men.png"
     },
     {
     _id: "5",
@@ -32,6 +32,6 @@ export const productsData = [
     price: 13500,
     category: "Luxury",
     description: "Rich honey and warm amber notes. A heavy, long-lasting scent for special occasions.",
-    image: "src/assets/Emporio Armani Men's Stronger With You Eau de Toilette Fragrance Collection - Macy's.png"
+    image: "public/Emporio Armani Men's Stronger With You Eau de Toilette Fragrance Collection - Macy's.png"
 }
 ];
