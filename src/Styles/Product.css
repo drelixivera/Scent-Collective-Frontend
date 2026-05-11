@@ -7,7 +7,6 @@
   letter-spacing: 2px;
 }
 
-/* Custom styling for the Bootstrap Cards */
 .card {
   transition: transform 0.3s ease;
   border-radius: 10px;
