@@ -1,8 +1,8 @@
-import React, { useState } from 'react'; // Removed useEffect
+import React, { useState } from 'react';  
 import { Container, Row, Col, Card, Button, Badge, Form, InputGroup, Nav } from 'react-bootstrap';
 import "../Styles/Product.css";
 import useFadeIn from '../useFadeIn';
-import { productsData } from '../product-data/product'; // importing local product data
+import { productsData } from '../product-data/product';  
 
 const Products = () => {
     const [searchTerm, setSearchTerm] = useState("");
@@ -11,8 +11,8 @@ const Products = () => {
 
     const fade = useFadeIn();
 
-    // Replaces the dbProducts state and useEffect fetch logic
-const filteredProducts = productsData.filter(product => { // Use the imported name here
+    
+const filteredProducts = productsData.filter(product => {  
     const matchesName = product.name.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesPrice = product.price <= maxPrice;
     const matchesCategory = activeCategory === "All" || product.category === activeCategory;
