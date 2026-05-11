@@ -1,6 +1,6 @@
 .glass-card {
-    background: rgba(255, 255, 255, 0.7) !important; /* Semi-transparent white */
-    backdrop-filter: blur(10px); /* The "frosted glass" look */
+    background: rgba(255, 255, 255, 0.7) !important; 
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3) !important;
     border-radius: 20px !important;
@@ -8,6 +8,6 @@
 }
 
 .glass-card:hover {
-    transform: translateY(-5px); /* Makes it look like it's floating higher on hover */
+    transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
