@@ -34,6 +34,6 @@
 }
 
 .navbar-brand {
-    max-width: 68%; /* Ensures the brand doesn't "eat" the toggle's space */
+    max-width: 68%;
     margin-right: 0 !important;
 }
