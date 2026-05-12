@@ -1,7 +1,7 @@
 🛍️ Scent-Collective Frontend
 A premium, high-performance e-commerce frontend designed for a curated collection of scents. This project is a demonstration of modern frontend engineering, focusing on UI/UX, responsive design, and efficient data handling without heavy backend dependencies.
 🚀 Live Demo
-
+https://scent-collective-frontend.vercel.app
 🛠️ Tech Stack
 1. Frontend Framework: React.js
 2. Styling: Bootstrap 5 & Custom CSS3
